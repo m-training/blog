@@ -1,2 +1,8 @@
+
 # visit site
-https://m-training.github.io/blog/
+
+[M.T. ブログ](https://m-training.github.io/blog/)
+
+# Gitコマンド
+
+* git clone (URL)
