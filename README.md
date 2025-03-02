@@ -1,2 +1,2 @@
-# blog
-Webサイトテスト
+# visit site
+https://m-training.github.io/blog/
