@@ -1,8 +1,17 @@
 
 # Gitコマンド
 
+* 起動
 * 準備
 * アップロード
+
+---
+
+## 起動
+
+1. 該当フォルダを右クリックして、「Open Git Bash here」を選択する。
+
+---
 
 ## 準備
 
@@ -26,6 +35,8 @@
     ```git
     git clone https://m-training.github.io/blog/
     ```
+
+---
 
 ## アップロード
 
