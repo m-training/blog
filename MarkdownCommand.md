@@ -1,5 +1,5 @@
 
-# MArkdownコマンド
+# Markdownコマンド
 
 * プレビュー
 
