@@ -105,9 +105,3 @@
     ```git
     git log --graph
     ```
-
-* テスト
-
-    ```git
-    testテスト
-    ```
