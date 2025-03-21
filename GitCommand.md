@@ -26,16 +26,20 @@
 
 #### 実行
 
-1. カレントディレクトリ移動
+1. github上で「<>Code」をクリック
+
+2. SSHタブ下部のgit@github.com:...をコピー
+
+3. WinPC上でカレントディレクトリ移動
 
     ```git
-    cd /D/01_MyData/04_PAS/06_Git
+    cd D:\01_MyData\06_Git
     ```
 
-2. クローン実施
+4. クローン実施
 
     ```git
-    git clone https://m-training.github.io/blog/
+    git clone git@github.com:m-training/blog.git
     ```
 
 ---
