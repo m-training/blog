@@ -6,3 +6,5 @@
 - [Git](/GitCommand.md)
 
 - [Markdown](/MarkdownCommand.md)
+
+- [VsCode](/VsCodeSetting.md)
