@@ -55,7 +55,7 @@
 2. コミット
 
     ```git
-    git commit -m"よく使うGITコマンドを追記"
+    git commit -m "git command add" -m "clone command"
     ```
 
 3. プッシュ
