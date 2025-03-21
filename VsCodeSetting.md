@@ -1,7 +1,9 @@
 
 # VsCodeの便利機能
 
-* 拡張機能
+* GitGraph
+* markdownlint
+* PlantUML
 
 ---
 
@@ -35,6 +37,23 @@ VsCode上でGit操作できるようになる拡張機能
     * vsCode->表示->ターミナルを開く
     * vsCodeのターミナル上でGitコマンドが扱えるようになる。
 
+---
+
 ## [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 VsCode上でmarkdownのスペルチェックを自動で行う拡張機能
+
+---
+
+## [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
+
+1. PlantUMLのjarファイルをセット
+    * ダウンロード先：[PlantUML Downloads and Source Code](https://plantuml.com/ja/download)
+    * ダウンロードファイル名：plantuml-mit-1.2025.2.jar
+
+2. jarファイルを適当なフォルダに保存する
+3. vSCodeの設定にjarファイルを登録する
+   * 設定画面で「markdown-preview-enhanced.plantumlJarPath」を入力
+   * Plantuml:Jarの項目に先ほど保存したjarファイルをフルパスで記載
+
+参考にしたサイト：[VSCodeでPlantUMLを使うための環境構築](https://overworker.hatenablog.jp/entry/2024/02/17/231225)
