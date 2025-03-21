@@ -52,7 +52,7 @@
     git add README.md
     ```
 
-2. コミット
+2. コミット（コミットメッセージが2行の場合）
 
     ```git
     git commit -m "git command add" -m "clone command"
