@@ -3,7 +3,7 @@
 
 - [Windows便利設定](/Win11Setting.md)
 
-- [Chromebook](/ChromebookSetting.md)
+- [Chromebook便利設定](/ChromebookSetting.md)
 
 - [Git](/GitCommand.md)
 
