@@ -17,6 +17,79 @@
 
 ## 準備
 
+### SSH設定
+
+#### 公開鍵の生成
+
+1. 以下のコマンドを入力して接続状況を確認する。
+
+    ```git
+    ssh -T git@github.com
+    ```
+
+    * 成功の場合
+
+    ```git
+    Hi m-training! You've successfully authenticated, but GitHub does not provide shell access.
+    ```
+
+    * 失敗の場合
+
+    ```git
+    Warning: Permanently added the RSA host key for IP address '***' to the list of known hosts.
+    git@github.com: Permission denied (publickey).
+    ```
+
+2. 以下のコマンドを入力して公開鍵を確認する。
+
+    ```git
+    cd ~/.ssh
+    ```
+
+    ```git
+    ls -a
+    ```
+
+3. 以下のファイルがあるか確認する。
+   * id_rsa
+   * id_rsa.pub
+
+4. 公開鍵がない場合は、以下のコマンドで生成する。
+   Enter連打でOK
+
+    ```git
+    ssh-keygen -t rsa
+    ```
+
+5. [id_rsa.pub]ファイルの内容を確認する。
+
+    ```git
+    cat id_rsa.pub
+    ```
+
+6. [id_rsa.pub]ファイルの内容をコピーする。
+
+#### 公開鍵の登録
+
+1. githubの自分のアイコンをクリックして、[Settings]をクリック。
+2. [SSH and GPG keys]をクリック
+3. [SSH keys]の[Title]と[Key]を入力する。
+   * [Title]は任意の名前。公開鍵の種類がわかれば良い。
+   * [Key]には[id_rsa.pub]の内容を貼り付ける。
+
+
+4. 以下のコマンドを入力して接続状況を確認する。
+
+    ```git
+    ssh -T git@github.com
+    ```
+
+    * 成功の場合
+
+    ```git
+    Hi m-training! You've successfully authenticated, but GitHub does not provide shell access.
+    ```
+
 ### クローン
 
 #### 前提
