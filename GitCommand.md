@@ -159,7 +159,6 @@
     origin  https://github.com/m-training/blog.git (push)
     ```
 
-
 ---
 
 ## アップロード
@@ -227,7 +226,8 @@
     ```git
     git log --graph
     ```
---
+
+---
 
 ## 有用情報
 
