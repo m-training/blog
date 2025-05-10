@@ -18,6 +18,30 @@
 
 ## 準備
 
+### パッケージインストール
+
+1. ターミナルを開く。
+2. パッケージを更新するだめに以下のコマンドを入力する。
+
+    ```git
+    sudo apt update -y
+    sudo apt upgrade -y
+    sudo apt full-upgrade -y
+    ```
+
+参考サイト） [ChromeOSでGit, VSCode, Dockerをインストールして開発](https://qiita.com/pyama2000/items/90b189964f71def53b19)
+
+### Gitセットアップ
+
+1. configを設定する。
+
+    ```git
+    git config --global user.name "ｍ−training"
+    git config --global user.email "mmtir5kw344@gmail.com"
+    ```
+
+参考サイト） [git のセットアップができていない](https://qiita.com/TkTkTkTkTako/items/2400864e5f12ba70dc6d#%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95%E8%A9%B3%E7%B4%B0)
+
 ### SSH設定
 
 #### 公開鍵の生成
@@ -78,7 +102,6 @@
    * [Title]は任意の名前。公開鍵の種類がわかれば良い。
    * [Key]には[id_rsa.pub]の内容を貼り付ける。
 
-
 4. 以下のコマンドを入力して接続状況を確認する。
 
     ```git
@@ -115,6 +138,27 @@
     ```git
     git clone git@github.com:m-training/blog.git
     ```
+
+5. .gitフォルダの確認。
+    [.git]が生成されていることを確認する。
+
+    ```git
+    ls -a
+    ```
+
+6. リモートリポジトリとローカルリポジトリの紐づき確認
+
+    ```git
+    git remote -v
+    ```
+
+    以下のように表示されればOK。
+
+    ```git
+    origin  https://github.com/m-training/blog.git (fetch)
+    origin  https://github.com/m-training/blog.git (push)
+    ```
+
 
 ---
 
