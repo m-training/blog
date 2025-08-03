@@ -57,3 +57,21 @@ VsCode上でmarkdownのスペルチェックを自動で行う拡張機能
    * Plantuml:Jarの項目に先ほど保存したjarファイルをフルパスで記載
 
 参考にしたサイト：[VSCodeでPlantUMLを使うための環境構築](https://overworker.hatenablog.jp/entry/2024/02/17/231225)
+
+---
+
+## [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+
+ファイルの拡張子ごとに、ファイルのアイコンを見やすく変換する拡張機能
+
+---
+
+## [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+
+インデントを色分けして表示する拡張機能
+
+---
+
+## [zenkaku](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku)
+
+コード内の全角スペースをハイライトで表示する拡張機能
