@@ -10,3 +10,5 @@
 - [Markdown](/MarkdownCommand.md)
 
 - [VsCode](/VsCodeSetting.md)
+
+- [ChatGPT](/ChatGPTSetting.md)
