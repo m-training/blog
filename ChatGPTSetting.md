@@ -14,7 +14,8 @@ ChatGPTに図解を依頼すると文字化けする。
 3. `Noto_Sans_JP.zip`を解凍する
 4. `NotoSansJP-VariableFont_wght.ttf`をChatGPTにアップロードする。
 ttfファイルを添付して、以下のプロンプトで実行する。
-    ```
+
+    ```text
     アップロードしたフォントを用いてグラフを作成してください
     ```
 
