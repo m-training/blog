@@ -2,6 +2,7 @@
 # Windows11 便利設定
 
 * 右クリックをデフォルトで前表示する（Win10仕様に戻す）
+* Google IMEセットアップ
 
 ## 右クリックをデフォルトで前表示する（Win10仕様に戻す）
 
@@ -14,3 +15,10 @@
     ```
 
 3. Enterキーを押下して「この操作を正しく終了しました。」と表示されたことを確認
+
+## Google IMEセットアップ
+
+1. [インストールサイト](https://www.google.co.jp/ime/)にアクセスして、右上の「ダウンロード」をクリック
+2. ダウンロードした「GoogleJapaneseInputSetup.exe」を実行
+
+参考サイト） [[Windows 11] IMEにGoogle日本語入力をインストールして利用する](https://www.howtonote.jp/windows11/blog/index30.html)
