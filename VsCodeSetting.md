@@ -1,9 +1,13 @@
 
 # VsCodeの便利機能
 
-* GitGraph
-* markdownlint
-* PlantUML
+- [VsCodeの便利機能](#vscodeの便利機能)
+  - [GitGraph](#gitgraph)
+  - [markdownlint](#markdownlint)
+  - [PlantUML](#plantuml)
+  - [vscode-icons](#vscode-icons)
+  - [indent-rainbow](#indent-rainbow)
+  - [zenkaku](#zenkaku)
 
 ---
 
