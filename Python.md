@@ -53,7 +53,6 @@ conda activate ai311
 where.exe python
 python --version
 python -m pip --version
-python -c "import sys; print(sys.executable)"
 ```
 
 ## パッケージ導入の作法
