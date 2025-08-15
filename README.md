@@ -12,3 +12,5 @@
 - [VsCode](/VsCodeSetting.md)
 
 - [ChatGPT](/ChatGPTSetting.md)
+
+- [python](/PythonSetting.md)
