@@ -13,4 +13,4 @@
 
 - [ChatGPT](/ChatGPTSetting.md)
 
-- [python](/PythonSetting.md)
+- [python](/Python.md)
