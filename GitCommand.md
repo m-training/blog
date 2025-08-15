@@ -63,13 +63,13 @@
     ssh -T git@github.com
     ```
 
-    * 成功の場合
+    - 成功の場合
 
     ```git
     Hi m-training! You've successfully authenticated, but GitHub does not provide shell access.
     ```
 
-    * 失敗の場合
+    - 失敗の場合
 
     ```git
     Warning: Permanently added the RSA host key for IP address '***' to the list of known hosts.
@@ -87,8 +87,8 @@
     ```
 
 3. 以下のファイルがあるか確認する。
-   * id_rsa
-   * id_rsa.pub
+   - id_rsa
+   - id_rsa.pub
 
 4. 公開鍵がない場合は、以下のコマンドで生成する。
    Enter連打でOK
@@ -110,8 +110,8 @@
 1. githubの自分のアイコンをクリックして、[Settings]をクリック。
 2. [SSH and GPG keys]をクリック
 3. [SSH keys]の[Title]と[Key]を入力する。
-   * [Title]は任意の名前。公開鍵の種類がわかれば良い。
-   * [Key]には[id_rsa.pub]の内容を貼り付ける。
+   - [Title]は任意の名前。公開鍵の種類がわかれば良い。
+   - [Key]には[id_rsa.pub]の内容を貼り付ける。
 
 4. 以下のコマンドを入力して接続状況を確認する。
 
@@ -119,7 +119,7 @@
     ssh -T git@github.com
     ```
 
-    * 成功の場合
+    - 成功の場合
 
     ```git
     Hi m-training! You've successfully authenticated, but GitHub does not provide shell access.
@@ -129,8 +129,8 @@
 
 #### 前提
 
-* クローン元：<https://m-training.github.io/blog/>
-* クローン先：/D/01_MyData/04_PAS/06_Git
+- クローン元：<https://m-training.github.io/blog/>
+- クローン先：/D/01_MyData/04_PAS/06_Git
 
 #### 実行
 
@@ -222,7 +222,7 @@
 
 ### その他
 
-* ブランチの移動
+- ブランチの移動
 
     ```git
     git checkout 移動先のブランチ名
@@ -232,13 +232,13 @@
 
 ## ログ確認
 
-* コミット履歴を1行で表示
+- コミット履歴を1行で表示
 
     ```git
     git log --oneline
     ```
 
-* コミット履歴をグラフィカルに表示
+- コミット履歴をグラフィカルに表示
 
     ```git
     git log --graph
@@ -248,37 +248,37 @@
 
 ## リモートリポジトリからプル
 
-* プルする
+- プルする
 
     ```git
     git pull origin main
     ```
 
-* コンフリクトが発生している場合は、変更箇所を確認
+- コンフリクトが発生している場合は、変更箇所を確認
 
-  * 例：「=======」の上部が古いローカルデータ、下部がリモートのデータ
+  - 例：「=======」の上部が古いローカルデータ、下部がリモートのデータ
     どちらか必要な方を残して編集する。
 
     ```git
     <<<<<<< HEAD
-    * [x] 「ゴルフ場殺人事件」感想文共有
-    * [ ] ウルトラ図解 不安障害・パニック
-    * [ ] 自転車整備
-    * [ ] 中小企業診断士 はじめの一歩
-    * [ ] Udemy「はじめての会計学」受講
+    - [x] 「ゴルフ場殺人事件」感想文共有
+    - [ ] ウルトラ図解 不安障害・パニック
+    - [ ] 自転車整備
+    - [ ] 中小企業診断士 はじめの一歩
+    - [ ] Udemy「はじめての会計学」受講
     =======
-    * [x] ウルトラ図解 不安障害・パニック
-    * [x] Microsoftアカウント認証不具合対応
+    - [x] ウルトラ図解 不安障害・パニック
+    - [x] Microsoftアカウント認証不具合対応
     >>>>>>> b4f171515f51b0f782c21738cfbf1b67f703861c
     ```
 
-* 編集が完了したらファイルを上書き保存して、[アップロード](#アップロード)を実施。
+- 編集が完了したらファイルを上書き保存して、[アップロード](#アップロード)を実施。
 
 ---
 
 ## 有用情報
 
-* `git init`と`git clone`の違い
+- `git init`と`git clone`の違い
   Q：
   新しくプロジェクトを作る時git cloneする前にgit initしなくて大丈夫なんでしょうか？
   

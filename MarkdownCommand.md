@@ -34,7 +34,7 @@
 
 1. `[Markdownに表示したい文字列](外部URL)`で作成する。
 
-* 表示例：[Google英語検索](https://www.google.com/webhp?gl=us&hl=en&gws_rd=cr&pws=0)
+- 表示例：[Google英語検索](https://www.google.com/webhp?gl=us&hl=en&gws_rd=cr&pws=0)
 
 ---
 
